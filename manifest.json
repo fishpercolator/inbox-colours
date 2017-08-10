@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Inbox Colours",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://inbox.google.com/u/0/*"],
+      "css": ["purple.css"]
+    }
+  ]
+}
